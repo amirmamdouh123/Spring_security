@@ -27,5 +27,4 @@ public class Role {
                 inverseJoinColumns = @JoinColumn(name="Authority_id",referencedColumnName = "id"))
     List<Authority> authorities;
 
-
 }
